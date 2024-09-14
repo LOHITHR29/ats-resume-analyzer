@@ -15,7 +15,7 @@ pipeline {
         
         stage('Checkout from SCM') {
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/LOHITHR29/ats-resume-analyzer'
+                git branch: 'master', credentialsId: 'github', url: 'https://github.com/LOHITHR29/ats-resume-analyzer'
             }
         }
         
